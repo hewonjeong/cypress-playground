@@ -1,9 +1,15 @@
 {
   "name": "cypress-playground",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "🌲 Simple end-to-end tests for google.com with Cypress",
   "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
   "repository": "https://github.com/hewonjeong/cypress-playground",
-  "author": "Hewon Jeong>",
-  "license": "MIT"
+  "author": "Hewon Jeong",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.7.0"
+  }
 }
