@@ -2,13 +2,12 @@
 
 describe('My First Test', () => {
   it('Signin to SendBird Dashboard', () => {
-    const { BASE_URL, EMAIL, PASSWORD } = Cypress.env()
-    cy.visit(BASE_URL)
+    cy.visit(Cypress.env('BASE_URL'))
 
     cy.get('#email')
-      .type(EMAIL)
+      .type(Cypress.env('EMAIL'))
       .get('#password')
-      .type(PASSWORD)
+      .type(Cypress.env('PASSWORD'))
       .get('#id_button_submit')
       .click()
 
