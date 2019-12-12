@@ -1,0 +1,9 @@
+{
+  "name": "cypress-playground",
+  "version": "1.0.0",
+  "description": "🌲 Simple end-to-end tests for google.com with Cypress",
+  "main": "index.js",
+  "repository": "https://github.com/hewonjeong/cypress-playground",
+  "author": "Hewon Jeong>",
+  "license": "MIT"
+}
