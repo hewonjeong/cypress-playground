@@ -11,6 +11,6 @@ jobs:
       - name: Cypress run with env
         uses: cypress-io/github-action@v1
         env:
-          CYPRESS_BASE_URL: ${{ secrets.CYPRESS_BASE_URL }}
+          CYPRESS_URL: ${{ secrets.BASE_URL }}
           CYPRESS_EMAIL: ${{ secrets.CYPRESS_EMAIL }}
           CYPRESS_PASSWORD: ${{ secrets.CYPRESS_PASSWORD }}

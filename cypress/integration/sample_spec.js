@@ -2,7 +2,7 @@
 
 describe('My First Test', () => {
   it('Signin to SendBird Dashboard', () => {
-    cy.visit(Cypress.env('BASE_URL'))
+    cy.visit(Cypress.env('URL'))
 
     cy.get('#email')
       .type(Cypress.env('EMAIL'))
