@@ -6,11 +6,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-      - name: Cypress run with env
+
+      - name: Cypress run
         uses: cypress-io/github-action@v1
         env:
-          CYPRESS_URL: ${{ secrets.BASE_URL }}
+          CYPRESS_URL: ${{ secrets.CYPRESS_URL }}
           CYPRESS_EMAIL: ${{ secrets.CYPRESS_EMAIL }}
           CYPRESS_PASSWORD: ${{ secrets.CYPRESS_PASSWORD }}
