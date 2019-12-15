@@ -4,7 +4,8 @@
   "description": "🌲 Simple end-to-end tests for google.com with Cypress",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "repository": "https://github.com/hewonjeong/cypress-playground",
   "author": "Hewon Jeong",
